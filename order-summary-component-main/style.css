@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;900&display=swap');
+
+:root {
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%)
+}
+
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-size:cover;
+}
+.f16 {
+  font-size: 16px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding:0;
+
+
+}
+.gray {
+  color: gray;
+}
+.wrapper  {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 450px;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.main {
+  flex-grow: 1;
+}
+img {
+  object-fit: scale-down;
+}
+.plan-details {
+  margin-top: 25px;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  border-radius: 10px;
+  padding: auto;
+}
+.change  {
+
+  display: flex;
+  align-items: center;
+}
+.change >a:active {
+  color: hsl(199, 47%, 23%);
+}
+.bottom {
+  max-width: 350px;
+  margin: auto;
+}
+ h2 {
+  margin:5px;
+  text-align: nonde;
+}
+.good-stuff{
+  margin: 20px;
+  position: relative;
+  left: -13%;
+}
+.bruh {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.proceed {
+  background-color :hsl(245, 75%, 52%);
+  padding: 17px;
+  border-radius: 10px;
+  margin-top:auto;
+
+}
+.proceed  {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bot-buttons > * {
+  margin-top:30px;
+  display: block;
+}
+h1 {
+  font-size: 27px;
+}
+.order-summary {
+  margin-top:30px;
+}
+.cancel {
+  color:gray;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.cancel:active {
+  color: hsl(224, 55%, 31%);
+}
+.proceed:active {
+  background-color:HSL(199, 47%, 23%)
+}
