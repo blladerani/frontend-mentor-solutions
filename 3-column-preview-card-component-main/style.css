@@ -79,6 +79,9 @@ body {
 .sedans {
     background-color: var(--bright-orange);
     color: var(--bright-orange);
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border-radius: .5rem 0 0 .5rem;
 }
 .suvs {
     background-color: var(--dark-cyan);
@@ -88,6 +91,7 @@ body {
 .luxury {
     background-color: var(--very-dark-cyan);
     color: var(var(--very-dark-cyan));
+    border-radius: 0 .5rem .5rem 0;
 }
 
 @media screen and (max-width: 930px) {
