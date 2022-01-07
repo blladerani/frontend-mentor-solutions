@@ -79,8 +79,6 @@ body {
 .sedans {
     background-color: var(--bright-orange);
     color: var(--bright-orange);
-    border-top-left-radius: .5rem;
-    border-bottom-left-radius: .5rem;
     border-radius: .5rem 0 0 .5rem;
 }
 .suvs {
